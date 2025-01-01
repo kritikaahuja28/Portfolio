@@ -36,20 +36,20 @@ const Header = ({ theme, toggleTheme }) => {
           <FaHome className="text-text-light dark:text-text-dark" />
         </a>
         <a
-          href="#about"
-          className={`p-2 rounded-full transition-colors duration-300 ${
-            activeSection === 'about' ? 'bg-accent-light dark:bg-accent-dark' : 'bg-transparent'
-          }`}
-        >
-          <FaUser className="text-text-light dark:text-text-dark" />
-        </a>
-        <a
           href="#experience"
           className={`p-2 rounded-full transition-colors duration-300 ${
             activeSection === 'experience' ? 'bg-accent-light dark:bg-accent-dark' : 'bg-transparent'
           }`}
         >
           <FaBriefcase className="text-text-light dark:text-text-dark" />
+        </a>
+        <a
+          href="#projects"
+          className={`p-2 rounded-full transition-colors duration-300 ${
+            activeSection === 'projects' ? 'bg-accent-light dark:bg-accent-dark' : 'bg-transparent'
+          }`}
+        >
+          <FaUser className="text-text-light dark:text-text-dark" />
         </a>
         <a
           href="#articles-contact"
