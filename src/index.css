@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  scroll-behavior: smooth;
+  width: 100vw; /* Ensure the width is 100% of the viewport width */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
