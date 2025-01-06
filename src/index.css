@@ -2,12 +2,140 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global Enhancements */
 html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
-  scroll-behavior: smooth;
-  width: 100vw; /* Ensure the width is 100% of the viewport width */
+  scroll-behavior: smooth; /* Smooth scrolling for navigation */
+  width: 100vw;
+  background: linear-gradient(to bottom, #1e1e2f, #2b2b40); /* Tech-inspired dark background */
+  color: #e0e0e0; /* Light text for readability */
 }
 
 body {
   font-family: 'Inter', sans-serif;
+}
+
+/* Hero Section */
+#hero {
+  background: radial-gradient(circle at top right, #2c2c3e, #1e1e2f);
+  color: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+  animation: fade-in 1.2s ease-in-out;
+}
+
+#hero img {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  border: 4px solid rgba(255, 255, 255, 0.1); /* Add a glowing edge */
+  animation: pulse 3s infinite;
+}
+
+#hero h1 {
+  background: linear-gradient(to right, #00e5ff, #76ff03); /* Neon gradient text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  animation: fade-slide-in 1.5s ease-in-out;
+}
+
+#hero p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: #9e9e9e;
+  margin-top: 0.5rem;
+  animation: glow-text 3s infinite;
+}
+
+#hero h2 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #c5c5c5;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  animation: typing 6s steps(40, end) infinite alternate;
+}
+
+/* Timeline Section */
+.timeline-circle {
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Neon circle */
+  animation: pulsate 2s infinite;
+}
+
+.timeline-card {
+  background: linear-gradient(to bottom right, #232331, #1e1e2f);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.timeline-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 212, 255, 0.5);
+}
+
+/* Keyframe Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    transform: scale(1.1);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@keyframes fade-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes glow-text {
+  0%, 100% {
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.5), 0 0 15px rgba(118, 255, 3, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(0, 229, 255, 0.7), 0 0 30px rgba(118, 255, 3, 0.4);
+  }
+}
+
+@keyframes pulsate {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.5), 0 0 20px rgba(0, 229, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.7), 0 0 30px rgba(0, 229, 255, 0.5);
+  }
+}
+
+/* Utility Classes */
+.glow-border {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
 }
