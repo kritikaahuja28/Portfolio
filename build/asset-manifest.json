@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.97cf00d9.css",
+    "main.js": "/Portfolio/static/js/main.348ebe47.js",
+    "static/js/488.21a3b654.chunk.js": "/Portfolio/static/js/488.21a3b654.chunk.js",
+    "static/media/pan1.png": "/Portfolio/static/media/pan1.0ce10acff2a7fa93a168.png",
+    "static/media/tsc.jpg": "/Portfolio/static/media/tsc.7d7a9d822a8c89c0c20e.jpg",
+    "static/media/Kritika Ahuja.jpg": "/Portfolio/static/media/Kritika Ahuja.10a3a828af674d07cfc4.jpg",
+    "static/media/ocr1.png": "/Portfolio/static/media/ocr1.3342ddb7629829e342d9.png",
+    "static/media/robocop.jpg": "/Portfolio/static/media/robocop.27895d34e09c66f2f799.jpg",
+    "static/media/branch1.jpg": "/Portfolio/static/media/branch1.0e11f9d87cfcd5daf332.jpg",
+    "static/media/bosch.jpg": "/Portfolio/static/media/bosch.585c33ea58215bb5809d.jpg",
+    "static/media/eygds.png": "/Portfolio/static/media/eygds.7f0bf2821ba0cc4aedfc.png",
+    "static/media/sih.jpg": "/Portfolio/static/media/sih.8897e0dca773fe0312d7.jpg",
+    "static/media/getv1.jpg": "/Portfolio/static/media/getv1.f2d51f247dc37f37b82b.jpg",
+    "static/media/pharmacy.jpg": "/Portfolio/static/media/pharmacy.10e737b8b5fcad536462.jpg",
+    "static/media/xebia.jpg": "/Portfolio/static/media/xebia.19db4c3baa7737d6f2a5.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.97cf00d9.css.map": "/Portfolio/static/css/main.97cf00d9.css.map",
+    "main.348ebe47.js.map": "/Portfolio/static/js/main.348ebe47.js.map",
+    "488.21a3b654.chunk.js.map": "/Portfolio/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97cf00d9.css",
+    "static/js/main.348ebe47.js"
+  ]
+}

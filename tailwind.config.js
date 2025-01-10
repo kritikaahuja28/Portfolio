@@ -19,5 +19,5 @@ module.exports = {
     },
   },
   plugins: [],
-  darkMode : 'selector'
+  darkMode: 'class', // Enable dark mode using a CSS class
 };

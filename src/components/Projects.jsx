@@ -1,34 +1,38 @@
 import React from 'react';
 import '../projects.css'; // Import the CSS for the flip card effect
-
+import robocopImage from '../assets/robocop.jpg';
+import getv1Image from '../assets/getv1.jpg';
+import ocr1Image from '../assets/ocr1.png';
+import pan1Image from '../assets/pan1.png';
+import pharmacyImage from '../assets/pharmacy.jpg';
 const Projects = () => {
   const projects = [
     {
       title: "ROBOCOP - Autonomous Shooting Robot",
       description: "This is a system that is capable of protecting the territory from UAVs & UGVs. It is able to DETECT, LOCK, and SHOOT DOWN the target and keep PATROLLING in a static environment and checking for suspicious activities using principles of Machine Learning and Computer Vision.",
       link: 'https://drive.google.com/file/d/1nxmA8L2ZbGLvhsMh_TSpmkCgC7fRWiXV/view',
-      image: 'src/assets/robocop.jpg'
+      image: robocopImage
     },
     {
       title: "Smart Cap- GetVision",
       description: "An artificial eye for visually impaired individuals, detecting and recognizing faces, objects, and expressions in real time using machine learning.",
-      image: 'src/assets/getv1.jpg'
+      image: getv1Image
     },
     {
       title:"Smart OCR",
       description: "Created and designed a solution to scan organizational charts in different formats (PDF, MS Word, and Excel, image, etc.) consisting of flowcharts and shapes like an arrow showing parent-to-child entity relationship. It was capable of extracting details like child and parent entity, ownership percentage, country, etc. from a flow-chart/diagram. In the end, content was converted into excel and formatted accordingly.",
-      image: 'src/assets/ocr1.png'
+      image: ocr1Image
     },
     {
       title:"Visual Recognition Algorithm",
       description: "To verify whether the submitted document is Voter Card and then validating the document by extracting the information present on it. It was capable of extracting details like Voter ID, Name, Father's Name using OCR and then validating the details using LUHN ALGORITHM.",
-      image: 'src/assets/pan1.png'
+      image: pan1Image
 
     },
     {
       title:"Pharmacy - Management System",
       description: "This is a pharmacy management software developed in Python and designed in Tkinter aiming to ease out the day to day operations carried out by a pharmacy.As part of this project we also drafted a standard documentation which gave detailed explanation about the features of our software.",
-      image: 'src/assets/pharmacy.jpg'
+      image: pharmacyImage
     }
   ];
 
