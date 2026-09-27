@@ -16,7 +16,7 @@ const skillGroups = [
   },
   {
     title: 'Languages & Backend',
-    skills: ['Python', 'SQL', 'TypeScript', 'FastAPI', 'Flask', 'Next.js', 'React', 'PostgreSQL', 'Docker', 'Git', 'Azure DevOps'],
+    skills: ['Python', 'SQL', 'FastAPI', 'Flask', 'Docker', 'Git', 'Azure DevOps'],
   },
 ];
 
