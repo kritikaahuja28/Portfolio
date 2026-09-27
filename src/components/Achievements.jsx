@@ -5,6 +5,7 @@ import eygds from '../assets/eygds.png';
 import xebia from '../assets/xebia.jpg';
 import sih from '../assets/sih.jpg';
 import tsc from '../assets/tsc.jpg';
+import Section from './Section';
 
 const achievements = [
   {
@@ -53,26 +54,28 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    <section
+    <Section
       id="achievements"
-      className="snap-start min-h-screen flex flex-col justify-center items-center p-8 bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 text-gray-800 dark:text-gray-200"
+      eyebrow="Achievements"
+      title="Achievements"
+      subtitle="Five hackathon wins and two years as branch topper."
     >
-      <h2 className="text-4xl font-extrabold mb-8 tracking-wide text-center text-blue-600 dark:text-blue-400">
-        Achievements
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {achievements.map((achievement, index) => (
-          <div key={index} className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
-            <img className="w-full h-48 object-cover" src={achievement.image} alt={achievement.title} />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">{achievement.title}</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{achievement.date}</p>
-              <p className="text-gray-700 dark:text-gray-300">{achievement.description}</p>
+          <article
+            key={index}
+            className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900"
+          >
+            <img className="h-44 w-full object-cover" src={achievement.image} alt={achievement.title} loading="lazy" />
+            <div className="p-5">
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">{achievement.date}</p>
+              <h3 className="mt-1 text-lg font-bold text-slate-900 dark:text-white">{achievement.title}</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">{achievement.description}</p>
             </div>
-          </div>
+          </article>
         ))}
       </div>
-    </section>
+    </Section>
   );
 };
 
