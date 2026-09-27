@@ -3,93 +3,341 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Kritika Ahuja | GenAI Engineer</title>
+  <meta name="description" content="Kritika Ahuja, GenAI Engineer at EY-GDS. RAG, LangGraph and LLM systems in production, and the builder of Agaah, a live news app.">
+  <meta property="og:title" content="Kritika Ahuja | GenAI Engineer">
+  <meta property="og:description" content="GenAI Engineer at EY-GDS building RAG, LangGraph and LLM systems in production.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234f46e5'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='28' fill='white'%3EKA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <div class="logo">Your Logo</div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="header-inner">
+      <div class="logo"><a href="#home"><span class="logo-mark">KA</span> Kritika Ahuja</a></div>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="home" class="section">
-    <div class="hero">
-      <h1>Welcome to Kritika Ahuja's Portfolio</h1>
-      <p>Crafting innovative solutions, one line of code at a time.</p>
-    </div>
-  </section>
-
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <div class="about-content">
-      <p>
-        I am a Senior AI Developer at Ernst & Young (EY), with a strong passion for leveraging artificial intelligence to solve complex business challenges. Based in Chandigarh, India, I specialize in developing and implementing advanced AI and machine learning solutions, particularly in the areas of automation, natural language processing, and computer vision. My expertise spans across Python, machine learning algorithms, and frameworks such as OpenCV, Flask, and currently working in FastAPI.
-      </p>
-      <p>
-        With a dual degree in BE-MBA in Computer Science Engineering from Thapar Institute of Engineering and Technology, I have developed a deep understanding of both technical and business aspects of AI solutions. Over the years, I have contributed to a wide range of projects, from developing Gen-AI solutions to integrating OpenAI APIs and automating document generation processes. I am passionate about driving innovation and improving operational efficiency through AI.
-      </p>
-      <p>
-        In addition to my professional work, I have been recognized for my contributions, including winning multiple hackathons such as the Smart India Hackathon 2020 and Bosch AI Hackathon 2021. I am also actively involved in extracurricular activities, including volunteering for community events like blood donation camps.
-      </p>
-      <p>
-        I am always eager to explore new AI trends and look forward to contributing to impactful projects that drive positive change.
-      </p>
-    </div>
-    <button class="read-more-btn" onclick="toggleContent()">Read More</button>
-  </section>
-  
-
-  <!-- <section id="services" class="section">
-    <h2>Services</h2>
-    <div class="service-cards">
-      <div class="card">Service 1</div>
-      <div class="card">Service 2</div>
-      <div class="card">Service 3</div>
-    </div>
-  </section> -->
-
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="project-gallery">
-      <div class="project">Smart OCR</div>
-      <div class="project">Visual Recognition Algorithm</div>
-      <div class="project">Robocop</div>
-      <div class="project">Smart Cap- GetVision</div>
-    </div>
-  </section>
-
-  <section id="blogs" class="section">
-    <h2>Blogs</h2>
-    <div class="service-cards">
-      <div class="card">
-        <a href="https://medium.com/@kritikaahuja.287/enhancing-sql-database-interactions-query-extraction-and-result-restriction-with-langchain-agents-09cea6c05818" target="_blank">Langchain - SQL Database Interactions</a>
+  <main>
+    <section id="home" class="section">
+      <div class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Welcome to Kritika Ahuja's Portfolio</p>
+          <h1>Kritika Ahuja</h1>
+          <p class="hero-role">GenAI Engineer at EY-GDS</p>
+          <p class="hero-summary">
+            I design and ship LLM systems that people rely on every day, including a RAG and LangGraph finance chatbot used by EY teams worldwide.
+            Four years of taking ML and GenAI from prototype to production.
+          </p>
+          <p class="hero-tagline">Crafting innovative solutions, one line of code at a time.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View my work</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Quick facts">
+          <div class="avatar" aria-hidden="true">KA</div>
+          <dl class="facts">
+            <div><dt>Current role</dt><dd>Senior Associate 2, EY-GDS</dd></div>
+            <div><dt>Focus</dt><dd>RAG · Agents · LLMOps</dd></div>
+            <div><dt>Experience</dt><dd>4+ years in production ML</dd></div>
+            <div><dt>Location</dt><dd>Gurugram, India</dd></div>
+            <div><dt>Education</dt><dd>Thapar · BE CS + MBA</dd></div>
+          </dl>
+          <div class="hero-card-links">
+            <a href="https://www.linkedin.com/in/kritika-ahuja28" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/kritikaahuja28" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:kritikaahuja.287@gmail.com">Email</a>
+          </div>
+        </aside>
       </div>
-      <div class="card">
-        <a href="https://medium.com/analytics-vidhya/using-yolov3-and-opencv-to-implement-custom-object-detection-and-ocr-for-smart-analysis-of-the-aad46c349962" target="_blank">Visual Recognition Algorithm</a>
-      <!-- </div>
-      <div class="card">
-        <a href="https://example.com/blog3" target="_blank">Blog 3</a>
-      </div> -->
-    </div>
-  </section>
-  
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Kritika Ahuja</p>
-    <!-- add email id with icon-->
-    <p>Kritikaahuja.287@gmail.com</p>
-  </section>
+
+      <ul class="stats" aria-label="Impact">
+        <li><strong>30%</strong><span>faster query resolution with the finance chatbot</span></li>
+        <li><strong>50%</strong><span>less report prep time using LLM drafting</span></li>
+        <li><strong>40%</strong><span>less analyst time on manual SQL</span></li>
+        <li><strong>70%</strong><span>faster KYC verification with OCR + ML</span></li>
+      </ul>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <p class="eyebrow">01 · About</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-content">
+        <p>
+          I am a GenAI Engineer and Senior Associate 2 at Ernst &amp; Young Global Delivery Services (EY-GDS) in Gurugram, India, with a strong passion for leveraging artificial intelligence to solve complex business challenges. I own the design of a finance chatbot used by EY teams worldwide, built on RAG, LangGraph and Elasticsearch. I have spent four years shipping ML and LLM systems to production, from OCR pipelines to text-to-SQL agents. My expertise spans Python, machine learning algorithms, and frameworks such as LangChain, LangGraph, OpenCV, Flask and FastAPI.
+        </p>
+        <p>
+          With a dual degree (BE in Computer Science + MBA) from Thapar Institute of Engineering and Technology, I have developed a deep understanding of both technical and business aspects of AI solutions. Over the years, I have contributed to a wide range of projects, from developing Gen-AI solutions to integrating OpenAI APIs and automating document generation processes. I am passionate about driving innovation and improving operational efficiency through AI.
+        </p>
+        <div class="extra-content">
+          <p>
+            On the side, I built and run <a href="https://agaah.in" target="_blank" rel="noopener">Agaah</a>, a live news app on web and Android that turns stories from 37 Indian and world feeds into short summaries using open-source LLMs.
+          </p>
+          <p>
+            In addition to my professional work, I have been recognized for my contributions, including winning multiple hackathons such as the Smart India Hackathon 2020 and Bosch AI Hackathon 2021. I am also actively involved in extracurricular activities, including volunteering for community events like blood donation camps.
+          </p>
+          <p>
+            I am always eager to explore new AI trends and look forward to contributing to impactful projects that drive positive change.
+          </p>
+        </div>
+        <button class="read-more-btn" onclick="toggleContent()" aria-expanded="false">Read More</button>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head">
+        <p class="eyebrow">02 · Experience</p>
+        <h2>Experience</h2>
+        <p class="section-sub">Grew from intern to Senior Associate 2 at EY-GDS, with three promotions since joining full-time in 2022.</p>
+      </div>
+
+      <div class="company">
+        <div class="company-head">
+          <div class="company-logo" aria-hidden="true">EY</div>
+          <div>
+            <h3>EY-GDS (Ernst &amp; Young Global Delivery Services)</h3>
+            <p class="company-meta">Gurugram, India · Apr 2021 – Present</p>
+          </div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item current">
+            <div class="timeline-head">
+              <h4>Senior Associate 2</h4>
+              <span class="timeline-date">Sep 2026 – Present</span>
+            </div>
+            <ul>
+              <li>Took over the design of the finance chatbot: how documents are retrieved, how the LangGraph flows fit together, and which model handles which task.</li>
+              <li>Work directly with finance users to turn their requests into features, instead of building from specs handed down.</li>
+              <li>Keep the chatbot reliable in production: fixing issues, testing answer quality, and keeping cost and response time in check.</li>
+              <li>Review code for the associates on the team and help them when they get stuck.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-head">
+              <h4>Senior Associate</h4>
+              <span class="timeline-date">Oct 2024 – Sep 2026</span>
+            </div>
+            <ul>
+              <li>Built a finance chatbot that EY's finance teams use worldwide, answering questions with RAG over Elasticsearch, Azure AI Search and FAISS, with LangGraph for multi-step questions. Queries now get resolved <strong>30% faster</strong>.</li>
+              <li>Used LLMs to draft internal reports automatically, cutting preparation time <strong>in half</strong>.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-head">
+              <h4>Associate 3</h4>
+              <span class="timeline-date">Oct 2023 – Oct 2024</span>
+            </div>
+            <ul>
+              <li>Built chatbots that answer questions about client databases by writing the SQL themselves (LangChain SQL Agent, PandasAI). Analysts spent <strong>40% less time</strong> on manual queries.</li>
+              <li>Connected OpenAI models to client workflows so routine tasks ran without anyone stepping in.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-head">
+              <h4>Associate 2</h4>
+              <span class="timeline-date">Jul 2022 – Oct 2023</span>
+            </div>
+            <ul>
+              <li>Built ML-based Q&amp;A modules that raised answer accuracy by <strong>25%</strong>, so fewer answers needed manual checks.</li>
+              <li>Wrote document generation scripts that saved <strong>40%</strong> of processing time.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-head">
+              <h4>Machine Learning Intern</h4>
+              <span class="timeline-date">Apr 2021 – Jun 2022</span>
+            </div>
+            <ul>
+              <li>Built a tool that reads org charts with Faster R-CNN and Azure OCR, automating <strong>90%</strong> of the manual work.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <div class="company">
+        <div class="company-head">
+          <div class="company-logo alt" aria-hidden="true">IDFC</div>
+          <div>
+            <h3>IDFC First Bank</h3>
+            <p class="company-meta">Summer Intern · Jun 2020 – Aug 2020</p>
+          </div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <ul>
+              <li>Built an OCR and ML pipeline for KYC checks that cut verification time by <strong>70%</strong>.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-head">
+        <p class="eyebrow">03 · Services</p>
+        <h2>Services</h2>
+        <p class="section-sub">What I build.</p>
+      </div>
+      <div class="service-cards">
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>RAG &amp; GenAI Chatbots</h3>
+          <p>Retrieval-augmented assistants over Elasticsearch, Azure AI Search and FAISS, with LangGraph for multi-step questions.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.2 4.2l2.9 2.9M16.9 16.9l2.9 2.9M1 12h4M19 12h4M4.2 19.8l2.9-2.9M16.9 7.1l2.9-2.9"/></svg>
+          </div>
+          <h3>LLM Agents &amp; Automation</h3>
+          <p>Text-to-SQL agents, report drafting and OpenAI-powered workflows that take routine work off people's plates.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Computer Vision &amp; OCR</h3>
+          <p>Document and image pipelines with Faster R-CNN, OpenCV and Azure OCR, from KYC checks to org-chart reading.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <p class="eyebrow">04 · Projects</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-gallery">
+        <a class="project project-featured" href="https://agaah.in" target="_blank" rel="noopener">
+          <span class="badge-live">● Live on web &amp; Android</span>
+          <span class="project-title">Agaah – News App</span>
+          <span class="project-desc">Pulls stories from 37 Indian and world feeds and turns each into a 50–70-word summary with gpt-oss-20b on Groq. If Groq fails it falls back to Llama 3.2 on Ollama, then to an extractive summary, and rejects badly formatted output. Stories covered by several outlets are shown once, matched by hash and word overlap.</span>
+          <span class="project-tags"><span>Next.js</span><span>React Native</span><span>PostgreSQL</span><span>Groq</span><span>Ollama</span></span>
+          <span class="project-link">Visit agaah.in →</span>
+        </a>
+        <a class="project" href="https://medium.com/analytics-vidhya/using-yolov3-and-opencv-to-implement-custom-object-detection-and-ocr-for-smart-analysis-of-the-aad46c349962" target="_blank" rel="noopener">
+          <span class="project-title">Visual Recognition Algorithm</span>
+          <span class="project-desc">Custom object detection and OCR with YOLOv3 and OpenCV.</span>
+          <span class="project-tags"><span>YOLOv3</span><span>OpenCV</span><span>OCR</span></span>
+          <span class="project-link">Read the write-up →</span>
+        </a>
+        <div class="project project-list">
+          <span class="project-title">More projects</span>
+          <ul>
+            <li>Smart OCR</li>
+            <li>Robocop</li>
+            <li>Smart Cap- GetVision</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head">
+        <p class="eyebrow">05 · Skills</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>LLMs</h3>
+          <ul class="chips">
+            <li>RAG</li><li>Agent workflows</li><li>LangChain</li><li>LangGraph</li><li>LangChain SQL Agent</li><li>PandasAI</li><li>OpenAI API</li><li>Groq</li><li>Ollama</li><li>Prompt design</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Search &amp; Vector DBs</h3>
+          <ul class="chips">
+            <li>Elasticsearch</li><li>Azure AI Search</li><li>FAISS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>ML &amp; Vision</h3>
+          <ul class="chips">
+            <li>Faster R-CNN</li><li>Azure OCR</li><li>Entity extraction</li><li>OpenCV</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Languages &amp; Backend</h3>
+          <ul class="chips">
+            <li>Python</li><li>SQL</li><li>TypeScript</li><li>FastAPI</li><li>Flask</li><li>Next.js</li><li>PostgreSQL</li><li>Docker</li><li>Git</li><li>Azure DevOps</li>
+          </ul>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="education">
+          <h3>Education</h3>
+          <p><strong>Thapar University</strong>, Patiala, India</p>
+          <p>Dual degree: BE in Computer Science + MBA · 2017 – 2022</p>
+        </div>
+        <div class="education">
+          <h3>Achievements</h3>
+          <p>Winner, Smart India Hackathon 2020</p>
+          <p>Winner, Bosch AI Hackathon 2021</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blogs" class="section">
+      <div class="section-head">
+        <p class="eyebrow">06 · Writing</p>
+        <h2>Blogs</h2>
+      </div>
+      <div class="service-cards">
+        <div class="card blog-card">
+          <span class="blog-source">Medium</span>
+          <a href="https://medium.com/@kritikaahuja.287/enhancing-sql-database-interactions-query-extraction-and-result-restriction-with-langchain-agents-09cea6c05818" target="_blank" rel="noopener">Langchain - SQL Database Interactions</a>
+          <p>Query extraction and result restriction with LangChain agents.</p>
+        </div>
+        <div class="card blog-card">
+          <span class="blog-source">Medium · Analytics Vidhya</span>
+          <a href="https://medium.com/analytics-vidhya/using-yolov3-and-opencv-to-implement-custom-object-detection-and-ocr-for-smart-analysis-of-the-aad46c349962" target="_blank" rel="noopener">Visual Recognition Algorithm</a>
+          <p>Custom object detection and OCR with YOLOv3 and OpenCV.</p>
+        </div>
+        <!-- <div class="card">
+          <a href="https://example.com/blog3" target="_blank">Blog 3</a>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-box">
+        <p class="eyebrow">07 · Contact</p>
+        <h2>Contact</h2>
+        <p class="contact-lead">Hiring for GenAI, LLM or ML engineering? I'd love to hear from you.</p>
+        <p class="contact-name">Kritika Ahuja</p>
+        <p><a class="btn btn-primary contact-link" href="mailto:kritikaahuja.287@gmail.com">✉ Kritikaahuja.287@gmail.com</a></p>
+        <div class="contact-links">
+          <a class="btn" href="https://www.linkedin.com/in/kritika-ahuja28" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/kritikaahuja28" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://medium.com/@kritikaahuja.287" target="_blank" rel="noopener">Medium</a>
+          <a class="btn" href="https://agaah.in" target="_blank" rel="noopener">Agaah</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2024 Kritika Ahuja. All rights reserved.</p>
+    <p>© <span id="year">2026</span> Kritika Ahuja. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
