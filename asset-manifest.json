@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.97cf00d9.css",
-    "main.js": "/Portfolio/static/js/main.348ebe47.js",
+    "main.css": "/Portfolio/static/css/main.8d745a7f.css",
+    "main.js": "/Portfolio/static/js/main.34a1867a.js",
     "static/js/488.21a3b654.chunk.js": "/Portfolio/static/js/488.21a3b654.chunk.js",
     "static/media/pan1.png": "/Portfolio/static/media/pan1.0ce10acff2a7fa93a168.png",
     "static/media/tsc.jpg": "/Portfolio/static/media/tsc.7d7a9d822a8c89c0c20e.jpg",
     "static/media/Kritika Ahuja.jpg": "/Portfolio/static/media/Kritika Ahuja.10a3a828af674d07cfc4.jpg",
+    "static/media/Kritika_CV.pdf": "/Portfolio/static/media/Kritika_CV.944a1b7da6789ca7c58b.pdf",
+    "static/media/Kritika_Ahuja_Resume_GenAI.pdf": "/Portfolio/static/media/Kritika_Ahuja_Resume_GenAI.4a9c6b53311fb546e267.pdf",
+    "static/media/Kritika Ahuja_Resume.pdf": "/Portfolio/static/media/Kritika Ahuja_Resume.8a989030c84b0e08ddc0.pdf",
     "static/media/ocr1.png": "/Portfolio/static/media/ocr1.3342ddb7629829e342d9.png",
     "static/media/robocop.jpg": "/Portfolio/static/media/robocop.27895d34e09c66f2f799.jpg",
     "static/media/branch1.jpg": "/Portfolio/static/media/branch1.0e11f9d87cfcd5daf332.jpg",
@@ -16,12 +19,12 @@
     "static/media/pharmacy.jpg": "/Portfolio/static/media/pharmacy.10e737b8b5fcad536462.jpg",
     "static/media/xebia.jpg": "/Portfolio/static/media/xebia.19db4c3baa7737d6f2a5.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.97cf00d9.css.map": "/Portfolio/static/css/main.97cf00d9.css.map",
-    "main.348ebe47.js.map": "/Portfolio/static/js/main.348ebe47.js.map",
+    "main.8d745a7f.css.map": "/Portfolio/static/css/main.8d745a7f.css.map",
+    "main.34a1867a.js.map": "/Portfolio/static/js/main.34a1867a.js.map",
     "488.21a3b654.chunk.js.map": "/Portfolio/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97cf00d9.css",
-    "static/js/main.348ebe47.js"
+    "static/css/main.8d745a7f.css",
+    "static/js/main.34a1867a.js"
   ]
 }
