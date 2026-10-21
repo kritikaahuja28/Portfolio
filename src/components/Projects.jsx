@@ -102,7 +102,7 @@ const Projects = () => {
       >
         <div className="p-6 md:col-span-3 md:p-9">
           <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-400">
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> Live on web &amp; Android
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> Live on web &amp; Android · iOS in progress
           </span>
           <h3 className="mt-4 text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white">
             Agaah – News App
@@ -111,6 +111,8 @@ const Projects = () => {
             <li>Pulls stories from 37 Indian and world feeds and shows each as a 50–70-word summary.</li>
             <li>Summaries come from gpt-oss-20b on Groq, falling back to Llama 3.2 on Ollama and then to an extractive summary. Badly formatted summaries are thrown out.</li>
             <li>When several outlets cover the same story, it's shown once, matched by title hash and word overlap.</li>
+            <li>Every story is available in Hindi as well as English.</li>
+            <li>The Android app is live; the iOS app is in progress.</li>
           </ul>
           <div className="mt-5 flex flex-wrap gap-1.5">
             {agaahTags.map((tag) => (

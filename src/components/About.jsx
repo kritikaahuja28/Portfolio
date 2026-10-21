@@ -25,9 +25,9 @@ const About = () => (
     <div className="grid gap-10 lg:grid-cols-5">
       <div className="space-y-4 text-base md:text-lg leading-relaxed text-slate-600 dark:text-slate-400 lg:col-span-3">
         <p>
-          I'm a GenAI Engineer and Senior Associate 2 at EY-GDS in Gurugram, where I own the design of a finance chatbot
-          used by EY teams worldwide. I decide how documents are retrieved, how the LangGraph flows fit together and which
-          model handles which task, and I work directly with finance users to turn their requests into features.
+          I'm a GenAI Engineer based in Gurugram. I have built multiple chatbots with RAG and LangGraph, working on how
+          documents are retrieved, how the agent flows fit together and which model handles which task. I work directly
+          with users to turn their requests into features.
         </p>
         <p>
           I hold a dual degree (BE in Computer Science + MBA) from Thapar University, so I think about both the technical
@@ -35,7 +35,7 @@ const About = () => (
           <a href="https://agaah.in" target="_blank" rel="noopener noreferrer" className="font-semibold text-indigo-600 hover:underline dark:text-indigo-400">
             Agaah
           </a>
-          , a live news app powered by open-source LLMs.
+          , a live news app in English and Hindi powered by open-source LLMs.
         </p>
         <p>
           I've won multiple hackathons, including Smart India Hackathon 2020 and Bosch AI Hackathon 2021, and I volunteer at

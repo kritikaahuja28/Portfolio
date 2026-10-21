@@ -14,9 +14,9 @@ const companies = [
         date: "Sep 2026 – Present",
         current: true,
         points: [
-          "Took over the design of the finance chatbot: how documents are retrieved, how the LangGraph flows fit together, and which model handles which task.",
+          "Work on production chatbots end to end: how documents are retrieved, how the LangGraph flows fit together, and which model handles which task.",
           "Work directly with finance users to turn their requests into features, instead of building from specs handed down.",
-          "Keep the chatbot reliable in production: fixing issues, testing answer quality, and keeping cost and response time in check.",
+          "Keep the chatbots reliable in production: fixing issues, testing answer quality, and keeping cost and response time in check.",
           "Review code for the associates on the team and help them when they get stuck.",
         ],
       },
@@ -24,7 +24,7 @@ const companies = [
         title: "Senior Associate",
         date: "Oct 2024 – Sep 2026",
         points: [
-          ["Built a finance chatbot that EY's finance teams use worldwide, with RAG over Elasticsearch, Azure AI Search and FAISS and LangGraph for multi-step questions. Queries now get resolved ", "30% faster", "."],
+          ["Built finance chatbots with RAG over Elasticsearch, Azure AI Search and FAISS and LangGraph for multi-step questions. Queries now get resolved ", "30% faster", "."],
           ["Used LLMs to draft internal reports automatically, cutting preparation time ", "in half", "."],
         ],
       },
@@ -87,7 +87,7 @@ const Experience = () => {
       id="experience"
       eyebrow="Experience"
       title="Experience"
-      subtitle="Grew from intern to Senior Associate 2 at EY-GDS, with three promotions since joining full-time in 2022."
+      subtitle="Grew from intern to Senior Associate 2, with three promotions since joining full-time in 2022."
       className="bg-white dark:bg-slate-900/40"
     >
       <div className="space-y-6">

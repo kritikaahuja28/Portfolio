@@ -4,7 +4,7 @@ import yourPhoto from "../assets/Kritika Ahuja.jpg"; // Import the image
 import resume from "../assets/Kritika_Ahuja_Resume_GenAI.pdf";
 
 const stats = [
-  { value: "30%", label: "faster query resolution with the finance chatbot" },
+  { value: "30%", label: "faster query resolution with RAG chatbots" },
   { value: "50%", label: "less report prep time using LLM drafting" },
   { value: "40%", label: "less analyst time on manual SQL" },
   { value: "70%", label: "faster KYC verification with OCR + ML" },
@@ -51,7 +51,7 @@ const Hero = () => {
             </p>
 
             <p className="mx-auto mt-5 max-w-xl text-base md:text-lg text-slate-600 dark:text-slate-400 md:mx-0">
-              I own the design of a finance chatbot used by EY teams worldwide, built on RAG, LangGraph and Elasticsearch.
+              I have built multiple chatbots with RAG, LangGraph and Elasticsearch.
               Four years of shipping ML and LLM systems to production, from OCR pipelines to text-to-SQL agents.
             </p>
 
